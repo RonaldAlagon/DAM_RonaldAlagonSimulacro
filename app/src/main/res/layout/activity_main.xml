@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3BB14"
+    android:backgroundTint="#F6D325"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/txtClave"
+        android:textColor="#1F6B93"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtpCorreo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtpCorreo"
+        app:layout_constraintTop_toBottomOf="@+id/txtpCorreo" />
+
+    <TextView
+        android:id="@+id/txtExamenAdmision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtExamenAdmision"
+        android:textColor="#1F6B93"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtNombre"
+        android:textColor="#1F6B93"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtExamenAdmision"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtExamenAdmision"
+        app:layout_constraintTop_toBottomOf="@+id/txtExamenAdmision" />
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/txtCorreo"
+        android:textColor="#1F6B93"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/TextPnombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/TextPnombre"
+        app:layout_constraintTop_toBottomOf="@+id/TextPnombre" />
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/txtFecha"
+        android:textColor="#1F6B93"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtpClave"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtpClave"
+        app:layout_constraintTop_toBottomOf="@+id/txtpClave" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtConvocatoria"
+        android:textColor="#1F6B93"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/txtCarrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCarrera"
+        android:textColor="#1F6B93"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtpFecha"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtpFecha"
+        app:layout_constraintTop_toBottomOf="@+id/txtpFecha" />
+
+    <EditText
+        android:id="@+id/TextPnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtNombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+    <EditText
+        android:id="@+id/txtpCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtCorreo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtCorreo"
+        app:layout_constraintTop_toBottomOf="@+id/txtCorreo" />
+
+    <EditText
+        android:id="@+id/txtpClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtClave"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtClave"
+        app:layout_constraintTop_toBottomOf="@+id/txtClave" />
+
+    <EditText
+        android:id="@+id/txtpFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtFecha"
+        app:layout_constraintTop_toBottomOf="@+id/txtFecha" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/txtCarrera"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtCarrera"
+        app:layout_constraintTop_toBottomOf="@+id/txtCarrera">
+
+        <RadioButton
+            android:id="@+id/rdIS"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/rdIS"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/rdIA"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/rdIA"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/rdM"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/rdM"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/rdA"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/rdA"
+            android:textSize="10sp" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/lbRadio"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView29"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <CheckBox
+        android:id="@+id/cAmigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbInternet"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/cRadio"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cRadio"
+        app:layout_constraintTop_toBottomOf="@+id/cRadio" />
+
+    <CheckBox
+        android:id="@+id/checkBox23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbAmigo"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/cAmigo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cAmigo"
+        app:layout_constraintTop_toBottomOf="@+id/cAmigo" />
+
+    <CheckBox
+        android:id="@+id/cPublicidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbPublicidad"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox23"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/checkBox23"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox23" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/txtpCorreo"
+        app:layout_constraintStart_toEndOf="@+id/txtpCorreo"
+        app:layout_constraintTop_toTopOf="@+id/txtpCorreo"
+        app:srcCompat="@drawable/baseline_email_24" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/TextPnombre"
+        app:layout_constraintStart_toEndOf="@+id/TextPnombre"
+        app:layout_constraintTop_toTopOf="@+id/TextPnombre"
+        app:srcCompat="@drawable/baseline_supervised_user_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/txtpClave"
+        app:layout_constraintStart_toEndOf="@+id/txtpClave"
+        app:layout_constraintTop_toTopOf="@+id/txtpClave"
+        app:srcCompat="@drawable/baseline_key_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/txtpFecha"
+        app:layout_constraintStart_toEndOf="@+id/txtpFecha"
+        app:layout_constraintTop_toTopOf="@+id/txtpFecha"
+        app:srcCompat="@drawable/baseline_date_range_24" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:background="#9C3838"
+        android:backgroundTint="#973A3A"
+        android:text="@string/btnEnviar"
+        app:icon="@android:drawable/ic_menu_send"
+        app:layout_constraintBottom_toBottomOf="@+id/cPublicidad"
+        app:layout_constraintStart_toEndOf="@+id/cPublicidad"
+        app:rippleColor="@color/black" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

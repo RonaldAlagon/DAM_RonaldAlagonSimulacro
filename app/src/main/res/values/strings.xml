@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DAM_AlagonVicente</string>
+    <string name="txtExamenAdmision">Examen de Admision 2023</string>
+    <string name="txtNombre">Nombre y Apellidos</string>
+    <string name="txtCorreo">Correo Electrónico</string>
+    <string name="txtClave">Clave</string>
+    <string name="txtFecha">Fecha de nacimiento</string>
+    <string name="txtCarrera">Carrera</string>
+    <string name="rdIS">Ingenieria de Sistemas</string>
+    <string name="rdIA">Ingenieria Ambiental</string>
+    <string name="rdM">Mecanica</string>
+    <string name="rdA">Administracion</string>
+    <string name="txtConvocatoria">¿Por qué medio se entero de la convocatoria?</string>
+    <string name="cRadio">Radio</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="lbInternet">Internet</string>
+    <string name="lbRadio">Radio</string>
+    <string name="lbAmigo">Amigo</string>
+    <string name="lbPublicidad">Publicidad</string>
+</resources>
